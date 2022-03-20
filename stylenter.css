@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+
+
+a{
+  font-size: 90px;
+  font-family: 'Italianno', cursive;
+  color: #f35626;
+  display: block;
+  background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: hue 2s infinite linear;
+}
+
+@-webkit-keyframes hue {
+  from {
+    -webkit-filter: hue-rotate(0deg);
+  }
+  to {
+    -webkit-filter: hue-rotate(-360deg);
+  }
+}
+
+.firstline{
+  font-size: 30px;
+  margin-top: 200px;
+  margin-bottom: 10px;
+}
+
+h2{
+  font-size: 70px;
+  font-family: 'Italianno', cursive;
+  color:white;
+  margin-top: 0px;
+}
+
+body{
+  -webkit-animation:colorchange 10s infinite;
+  animation: colorchange 40s infinite;
+}
+
+@-webkit-keyframes colorchange {
+
+     5%  {background: #0000ff;}
+    10%  {background: #e90052;}
+    15%  {background: #00ff85;}
+    20%  {background: #fff000;}
+    25%  {background: #44bec7;}
+    30%  {background: #ffc300;}
+    35%  {background: #d696bb;}
+    40%  {background: #44bec7;}
+    45%  {background: #f231f2;}
+    50%  {background: #6efdfd;}
+    55%  {background: #b967ff;}
+    60%  {background: #000000;}
+    65%  {background: #0f403f;}
+    70%  {background: #a2790d;}
+    75%  {background: #dde6d5;}
+    80%  {background: #ff00c1;}
+    85%  {background: #00fff9;}
+    90%  {background: #525266;}
+    95%  {background: #ffe5a9;}
+    100%  {background: #cbbeb5;}
+
+}
+
+span{
+  text-align: center;
+}
